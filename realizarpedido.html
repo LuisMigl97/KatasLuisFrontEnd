@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+	<title>Pedido</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>	
+		<a href="index.html"><img id="logo" src="./assets/img/logo.png"></a>
+		<a href="index.html"><img id="back3" src="./assets/img/back.png"></a>
+	</header>
+
+	<div class="datos3">
+	<p class="datos2">Pasteleria Nebulosa S.A. de C.V</p>
+	<p class="datos2">Cuahutemoc 319, col. Roble Nuevo, Monterrey, Nuevo Leon,</p>
+	<p class="datos2">Mexico.</p>
+	<p class="datos2">Telefono: 8341234567</p>
+	<p class="datos2">Horario: L-S de 8:00 a.m. - 8:00 p.m.</p>
+	</div>
+
+	<form action="pedido.js">
+		<!--<br><br><br><br><br><br><br><br>-->
+		<p id="etiquetapedido">Completa los datos</p>
+		<label class="form" for="nombre">Ingresa tu nombre:</label><br>
+		<input type="text" name="nombre" style="width: 300px" placeholder="Tu nombre"><br><br>
+
+		<label class="form" for="telefono">Ingresa tu telefono:</label><br>
+		<input type="tel" name="telefono" placeholder="Tu telefono"><br><br>
+
+		<label class="form" for="correo">Ingresa tu correo electronico:</label><br>
+		<input type="email" name="correo" style="width: 300px" placeholder="Ingresa un correo"><br><br>
+
+		<label class="form" for="descripcion">Describe como te gustaria que fuera tu pastel:</label><br>
+		<input type="text" style="width: 400px; height: 100px" name="descripcion"><br><br>
+
+		<p id="sel">Selecciona el pastel de tu preferencia (combina a tu gusto):</p>
+
+		<input type="checkbox" name="estrella">
+		<label class="form" for="nombre">Estrella fugaz................$350.00</label><br>	
+
+		<input type="checkbox" name="cometa">
+		<label class="form" for="nombre">Cometa................$250.00</label><br>	
+
+		<input type="checkbox" name="plateta">
+		<label class="form" for="nombre">Plateta................$300.00</label><br>	
+
+		<input type="checkbox" name="luna">
+		<label class="form" for="nombre">Luna................$350.00</label><br>	
+
+		<input type="checkbox" name="agujeronegro">
+		<label class="form" for="nombre">Agujero negro................$400.00</label><br>	
+
+		<input type="checkbox" name="nebulosa">
+		<label class="form" for="nombre">Nebulosa................$200.00</label><br>	
+		
+		<input type="checkbox" name="sol">
+		<label class="form" for="nombre">Sol................$330.00</label><br>	
+				
+		<input type="checkbox" name="aleman">
+		<label class="form" for="nombre">Aleman................$300.00</label><br>	
+		
+		<input type="checkbox" name="agujeroblanco">
+		<label class="form" for="nombre">Agujero blanco................$170.00</label><br>	
+		
+		<input type="checkbox" name="cuásar">
+		<label class="form" for="nombre">Cuásar................$500.00</label><br>	
+		
+		<input type="checkbox" name="galaxia">
+		<label class="form" for="nombre">Galaxia................$800.00</label><br>	
+		
+		<input type="checkbox" name="agujerodegusano">
+		<label class="form" for="nombre">Agujero de gusano................$290.00</label><br>	
+		
+		<input type="checkbox" name="granatractor">
+		<label class="form" for="nombre">Gran atractor................$1000.00</label><br><br>
+
+		<p id="sel">Selecciona los adornos para tu pastel (combina a tu gusto):</p>
+
+		<input type="checkbox" name="velasespaciales">
+		<label class="form" for="nombre">Velas espaciales................$60.00</label><br>	
+
+		<input type="checkbox" name="chocolateintergalactico">
+		<label class="form" for="nombre">Chocolate intergalactico.........$50.00</label><br>	
+
+		<input type="checkbox" name="fresasmarcianas">
+		<label class="form" for="nombre">Fresas marcianas..........$55.00</label><br>	
+
+		<input type="checkbox" name="cerezasfugaces">
+		<label class="form" for="nombre">Cerezas fugaces.........$40.00</label><br><br>
+
+		<input type="submit" name="enviar">
+		<input type="reset" name="reset">	
+
+	</form>
+
+
+</body>
+</html>

@@ -1,0 +1,260 @@
+html{
+	background-color: black;
+}
+#logo{
+	width: 150px; 	
+	height: 90px;
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+h1{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-decoration: bold;
+	position: absolute;
+	left: 178px;
+	top: 50px;
+}
+#divh2{
+	width: 700px;
+	margin-top: 300px;
+}
+h2{
+	color: white;
+	font-size: 80px;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Satisfy', cursive;
+	position: relative;
+	z-index: 100;
+	margin-left: 210px;
+}
+
+#divpastIn{
+	background-image: url('../assets/img/pastelInicio.jpg'); 
+	background-size: cover;	
+	background-position: center;
+	/*height: 70vh;*/
+	margin-top: -450px;
+	/*width:90%;*/
+	width:1200px;
+	height: 558px;
+	filter: brightness(50%);
+	margin-left: 170px;
+}
+#menu{
+	width: 200px;
+	position: absolute;
+	margin-top: -180px;
+	margin-left: 200px;
+}
+#menu:hover{
+	 transform: scale(1.1);
+	 transition: transform .3s;
+	 cursor:pointer;
+}
+#listamenu{
+	width: 500px;
+	position: absolute;
+	top: 120px;
+	left: 50px;
+	height: 50vh;
+}
+p{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-decoration: bold;
+	font-size: 23px;
+}
+ul{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-decoration: bold;
+	font-size: 20px;
+}
+#back{
+	position: absolute;
+	left: 30px;
+	top: 80px;
+	width: 50px;
+}
+#back:hover{
+	 transform: scale(1.2);
+	 transition: transform .3s;
+	 cursor:pointer;
+}
+#back2{
+	position: absolute;
+	left: 30px;
+	top: 50px;
+	width: 50px;
+}
+#back2:hover{
+	 transform: scale(1.2);
+	 transition: transform .3s;
+	 cursor:pointer;
+}
+#back3{
+	position: fixed;
+	left: 30px;
+	top: 80px;
+	width: 50px;
+}
+#back3:hover{
+	 transform: scale(1.2);
+	 transition: transform .3s;
+	 cursor:pointer;
+}
+#logo:hover{
+	 transform: scale(1.1);
+	 transition: transform .3s;
+	 cursor:pointer;
+}
+#pedido:hover{
+	 cursor:pointer;
+}
+#imgpedido{
+	width: 200px;
+	position: absolute;
+	margin-top: -180px;
+	margin-left: 430px;
+}
+#imgpedido:hover{
+	 transform: scale(1.1);
+	 transition: transform .3s;
+	 cursor:pointer;
+}
+form{
+	background-color: #F4E1DD;
+	color:  black;
+	font-family: 'Lato', sans-serif;
+	text-decoration: bold;
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 100px;
+	padding: 10px;
+	height: 1000px;
+	width: 500px;
+}
+#etiquetapedido{
+	font-size: 25px;
+	margin-left: 130px;
+	color: black;
+	font-family: 'Lato', sans-serif;
+	text-decoration: bold;
+}
+#sel{
+	color: black;
+}
+#imgpedido2{
+	width: 200px;
+	position: absolute;
+	right: 30px;
+	top: 620px;
+}
+#imgpedido2:hover{
+	 transform: scale(1.1);
+	 transition: transform .3s;
+	 cursor:pointer;
+}
+#sesion{
+	width: 200px;
+	position: absolute;
+	left: 310px;
+	top: 620px;
+}
+#sesion:hover{
+	 transform: scale(1.1);
+	 transition: transform .3s;
+	 cursor:pointer;
+}
+.datos{
+	font-size: 10px;
+	position: absolute;
+	top: 58px;
+	right: 300px;
+	width: 300px;
+}
+.datos2{
+	font-size: 10px;
+	line-height: 15%;
+}
+.datos3{
+	font-size: 10px;
+	position: absolute;
+	top: 35px;
+	right: 180px;
+	width: 300px;
+}
+#inventario{
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	background-color: #C5CADA;
+	width: 490px;
+	height: 500px;
+	padding: 20px;
+	border-style: solid;
+	border-color: white;
+}
+.inventario{
+	font-size: 20px;
+	color: black;
+	font-family: 'Lato', sans-serif;
+	text-decoration: bold;
+	line-height: 20%
+}
+#tinventario{
+	font-size: 40px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-decoration: bold;
+	position: absolute;
+	right: 685px;
+	margin-top: 15px;
+}
+#tpasteles{
+	color: black;
+	font-weight: bold;
+}
+#accesorios{
+	position: absolute;
+	left: 540px;
+	top: 100px;
+	background-color: #CCDEF0;
+	width: 412px;
+	height: 500px;
+	padding: 20px;
+	border-style: solid;
+	border-color: white;
+}
+#tabla{
+	position: absolute;
+	right: 0px;
+	top: 100px;
+	background-color: #C3DDE6;
+	width: 490px;
+	height: 500px;
+	padding: 20px;
+	border-style: solid;
+	border-color: white;
+}
+.inventarioo{
+	font-size: 20px;
+	color: black;
+	font-family: 'Lato', sans-serif;
+	text-decoration: bold;
+}
+
+tr{
+	border-style: solid;
+}
+th{
+	border-style: solid;
+	padding: 5px;
+	background-color: #93C5CB;
+}
+td{
+	border-style: solid;
+	padding: 5px;
+}
